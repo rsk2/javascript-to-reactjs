@@ -10,6 +10,7 @@ const CounterJS = () =>{
         <div>
                 <span id="hitsCount">0</span>
                 <label for="hits" id="hitsLabel">&nbsp;hits</label>
+                {/*Below onClick event Handler is specific to react. In pure JS, we would use onclick="incrementcounter()"*/}
                 <input type="button" onClick={incrementCounter} value="Hit me"></input>
         </div>
     )
