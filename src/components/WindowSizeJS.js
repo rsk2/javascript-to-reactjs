@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ScreenSizeJS = () => {
+const WindowSizeJS = () => {
 
     function refreshSize() {
         document.getElementById("windowHeight").innerText = window.innerHeight;
@@ -22,4 +22,4 @@ const ScreenSizeJS = () => {
 
 }
 
-export default ScreenSizeJS
+export default WindowSizeJS

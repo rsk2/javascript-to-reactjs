@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import CounterJS from './components/CounterJS';
 import CounterReactJS from './components/CounterReactJS';
-import ScreenSizeJS from './components/ScreenSizeJS';
-import ScreenSizeReactJS from './components/ScreenSizeReactJS';
+import WindowSizeJS from './components/WindowSizeJS';
+import WindowSizeReactJS from './components/WindowSizeReactJS';
 
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
       <CounterJS />
       <br/>
       <h3>Window size in React class component:</h3> 
-      <ScreenSizeReactJS />
+      <WindowSizeReactJS />
       <br/>
       <h3>Window size in vanilla JavaScript in React functional component:</h3> 
-      <ScreenSizeJS />
+      <WindowSizeJS />
     </div>
   );
 }

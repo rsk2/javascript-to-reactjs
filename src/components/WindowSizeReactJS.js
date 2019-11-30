@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ScreenSizeReactJS extends React.Component {
+class WindowSizeReactJS extends React.Component {
 
     constructor() {
         super()
@@ -38,4 +38,4 @@ class ScreenSizeReactJS extends React.Component {
 
 }
 
-export default ScreenSizeReactJS
+export default WindowSizeReactJS
