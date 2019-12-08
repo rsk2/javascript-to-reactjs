@@ -5,19 +5,16 @@ class HelloNameReactJS extends React.Component {
     constructor() {
         super()
         this.state = {
-            message: "Hi!"
+            message: "Hi"
         }
       
     }
 
     updateMessage = (event) => {
-        // var name = event.target.value;
-        // alert(name)
+        var name = event.target.value;
         this.setState(() => 
             { 
-               // if(name != "")
-                    return {message: event.target.value}//"Hi " + event.target.value + "!"}
-                
+                    return {message: `Hi ${name}`}   
             }
         )
     }
@@ -27,8 +24,9 @@ class HelloNameReactJS extends React.Component {
         return (
             <div>
                 <label for="Name" >Name: </label>
-                <input type="text" id="name" onChange={this.updateMessage} />
-                <label for="Display">{this.state.message}!</label>
+                <input type="text" id="name" onChange={this.updateMessage} placeholder="Please enter your name" />
+                <br/>
+                <label>{this.state.message}!</label>
             </div>
             
             )       
