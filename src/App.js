@@ -5,6 +5,7 @@ import CounterReactJS from './components/CounterReactJS';
 import WindowSizeJS from './components/WindowSizeJS';
 import WindowSizeReactJS from './components/WindowSizeReactJS';
 import HelloNameReactJS from './components/HelloNameReactJS';
+import HelloNameJS from './components/HelloNameJS';
 
 function App() {
   return (
@@ -20,8 +21,12 @@ function App() {
       <br/>
       <h3>Window size in vanilla JavaScript in React functional component:</h3> 
       <WindowSizeJS />
-      <h3>Hello World in React class component:</h3> 
+      <br/>
+      <h3>Hello Name in React class component:</h3> 
       <HelloNameReactJS />
+      <br/>
+      <h3>Hello Name in vanilla JavaScript in React functional component:</h3> 
+      <HelloNameJS />
     </div>
   );
 }
